@@ -51,25 +51,24 @@ Quarterly financial KPI analysis of a steel manufacturer, built in Python from 8
 - **Improve cash flow quality:** bring the cash conversion ratio back above 1.0x and keep safety stock instead of squeezing inventory further.
 - **Budget closer to reality:** base the profit budget on the latest actual margin and track variance every quarter.
 
+## Visualization
+
+![Actual vs Budget](https://github.com/DinhNhatAnh/Financial-Performance-Analysis-of-a-Steel-Manufacturer/blob/main/Pictures/Revenue%20%26%20Margin%20Trend.jpg)
+![Actual vs Budget](https://github.com/DinhNhatAnh/Financial-Performance-Analysis-of-a-Steel-Manufacturer/blob/main/Pictures/Working%20Capital%20Cycle.jpg)
+![Actual vs Budget](https://github.com/DinhNhatAnh/Financial-Performance-Analysis-of-a-Steel-Manufacturer/blob/main/Pictures/Liquidity%20%26%20Leverage%20Trend.jpg)
+![Actual vs Budget](https://github.com/DinhNhatAnh/Financial-Performance-Analysis-of-a-Steel-Manufacturer/blob/main/Pictures/OCF%20vs%20FCF.jpg)
+![Actual vs Budget](https://github.com/DinhNhatAnh/Financial-Performance-Analysis-of-a-Steel-Manufacturer/blob/main/Pictures/Actual%20vs%20Budget.jpg)
+
 ## Repository structure
 
 ```
 .
-├── data/                          # 8 source CSV files
-├── Finance_Analysis.ipynb         # full analysis notebook
-├── kpi_summary.csv                # exported KPI table (one row per quarter)
-├── Portfolio_Financial_Analysis_EN.pptx   # presentation summarizing the project
+├── Data                          # 8 source CSV files and exported KPI table (one row per quarter)
+├── Jupiter Notebook
+   |_ Finance_Analysis.ipynb         # full analysis notebook
+├── Pictures
 └── README.md
 ```
-
-## How to run
-
-```bash
-pip install pandas numpy matplotlib jupyter
-jupyter notebook Finance_Analysis.ipynb
-```
-
-Place the 8 CSV files where the notebook's `read_csv` calls expect them (update the paths in the setup cell if you keep them in `data/`).
 
 ## Tech stack
 
