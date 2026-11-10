@@ -1,5 +1,7 @@
 # Financial Performance Analysis: ABC Manufacturing (Steel), FY2024–FY2025
 
+![Actual vs Budget](https://github.com/DinhNhatAnh/Financial-Performance-Analysis-of-a-Steel-Manufacturer/blob/main/Pictures/Steel%20Factory%20Financial%20Performance%20Analysis.png)
+
 Quarterly financial KPI analysis of a steel manufacturer, built in Python from 8 source tables. The project covers profitability, liquidity, leverage, cash flow, working capital and budget variance, and includes a data-validation step that checks whether the three financial statements reconcile.
 
 > **Note:** The dataset is simulated for this case study. It does not represent any real company, and the findings should not be read as real-world business results.
