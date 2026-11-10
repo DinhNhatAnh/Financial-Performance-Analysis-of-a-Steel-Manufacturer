@@ -1,0 +1,18 @@
+account_id,Account,Statement
+1001,Revenue,Income Statement
+1002,COGS,Income Statement
+1003,Selling Expense,Income Statement
+1004,Marketing Expense,Income Statement
+1005,G&A Expense,Income Statement
+1006,Depreciation,Income Statement
+1007,Interest Expense,Income Statement
+1008,Tax Expense,Income Statement
+2001,Cash,Balance Sheet
+2002,Accounts Receivable,Balance Sheet
+2003,Inventory,Balance Sheet
+2004,Fixed Assets,Balance Sheet
+3001,Accounts Payable,Balance Sheet
+3002,Short-term Debt,Balance Sheet
+3003,Long-term Debt,Balance Sheet
+4001,Equity,Balance Sheet
+5001,CapEx,Cash Flow
